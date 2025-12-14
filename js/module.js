@@ -1,44 +1,40 @@
+console.log("module.js loaded");
+
+const container = document.getElementById("modules-container");
+console.log("container:", container);
+
+if (!container) {
+  console.error("modules-container NOT FOUND");
+  return;
+}
+
 const arrModule = [
   {
     title: "Minggu 1 — Judul Topik",
-    image: "./assets/havana-nestum.jpg",
+    image: "/assets/havana-nestum.jpg",
     description: "naomi nao",
   },
   {
     title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
-    image: "./assets/sagu-keju.jpg",
+    image: "/assets/sagu-keju.jpg",
     description: "smadnsaldlksajdlksaj",
   },
-  {
-    title: "Minggu 1 — Judul Topik",
-    image: "./assets/havana-nestum.jpg",
-    description: "lkfdlsjfldsfs",
-  },
-
-  { title: "Minggu 1 — Judul Topik" },
-  { title: "Minggu 1 — Judul Topik" },
-  { title: "Minggu 1 — Judul Topik" },
-  { title: "Minggu 1 — Judul Topik" },
 ];
 
-const container = document.getElementById("modules-container");
-
 arrModule.forEach((item, index) => {
-  console.log(item);
   const div = document.createElement("div");
   div.className = "module";
   div.style.cursor = "pointer";
 
   div.innerHTML = `
-      <strong>${item.title}</strong>
-       <p>Ringkasan singkat pembahasan. <em>Bukti:</em> link / screenshot / PDF.</p>
-        <p>${item.description}</p>
-      <p class="meta" style="margin:6px 0">Klik untuk lihat detail</p>
-    `;
+    <strong>${item.title}</strong>
+    <p>${item.description ?? ""}</p>
+    <p class="meta">Klik untuk lihat detail</p>
+  `;
 
-  div.addEventListener("click", () => {
+  div.onclick = () => {
     window.location.href = `/html/module-detail.html?id=${index}`;
-  });
+  };
 
   container.appendChild(div);
 });
