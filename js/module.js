@@ -37,7 +37,7 @@ arrModule.forEach((item, index) => {
     `;
 
   div.addEventListener("click", () => {
-    window.location.href = `module-detail.html?id=${index}`;
+    window.location.href = `/html/module-detail.html?id=${index}`;
   });
 
   container.appendChild(div);
