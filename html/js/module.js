@@ -11,44 +11,49 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const arrModule = [
     {
-      title: "Minggu 1 — Judul Topik",
+      title: "Pendidikan Kewarganegaraan",
       image: "./assets/havana-nestum.jpg",
-      description: "naomi nao",
+      description:
+        "Apa yang dimaksud dengan Pendidikan Kewarganegaraan dan mengapa penting bagi warga negara?",
+    },
+    {
+      title: "Sejarah Identitas Nasional",
+      image: "./assets/sagu-keju.jpg",
+      description:
+        "Apa yang dimaksud dengan identitas nasional dan bagaimana identitas tersebut terbentuk dalam sejarah Indonesia?",
     },
     {
       title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
       image: "./assets/sagu-keju.jpg",
-      description: "smadnsaldlksajdlksaj",
+      description:
+        "Apa perbedaan pandangan Hobbes, Locke, dan Rousseau tentang kondisi alamiah manusia?",
     },
     {
-      title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
+      title: "Ideologi dan Falsafah Bangsa",
       image: "./assets/sagu-keju.jpg",
-      description: "smadnsaldlksajdlksaj",
+      description:
+        "Apa yang dimaksud dengan identitas nasional dan bagaimana identitas tersebut terbentuk dalam sejarah Indonesia?",
     },
     {
-      title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
-      image: "./assets/sagu-keju.jpg",
-      description: "smadnsaldlksajdlksaj",
-    },
-    {
-      title: "Minggu 1 — Judul Topik",
+      title: "Konstitusi",
       image: "./assets/havana-nestum.jpg",
-      description: "naomi nao",
+      description: "Apa yang dimaksud dengan konstitusi?",
     },
     {
-      title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
+      title: "Fungsi dan Peran Negara",
       image: "./assets/sagu-keju.jpg",
-      description: "smadnsaldlksajdlksaj",
+      description: "Apa saja fungsi utama negara?",
     },
     {
-      title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
+      title: "Demokrasi?",
       image: "./assets/sagu-keju.jpg",
-      description: "smadnsaldlksajdlksaj",
+      description: "Apa yang dimaksud dengan demokrasi?",
     },
     {
-      title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
+      title: "Multikulturalisme",
       image: "./assets/sagu-keju.jpg",
-      description: "smadnsaldlksajdlksaj",
+      description:
+        "Apa hubungan multikulturalisme dengan Pancasila dan Bhinneka Tunggal Ika?",
     },
   ];
 
