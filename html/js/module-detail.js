@@ -81,11 +81,13 @@ const arrModule = [
 const params = new URLSearchParams(window.location.search);
 const id = Number(params.get("id"));
 
+let module = null; // ⬅️ deklarasi di luar
+
 if (!arrModule[id]) {
   document.querySelector(".module-title").textContent =
     "Module tidak ditemukan";
 } else {
-  const module = arrModule[id];
+  module = arrModule[id];
 
   document.querySelector(".module-title").textContent = module.title;
   document.querySelector(".module-author").textContent =
@@ -101,9 +103,11 @@ if (!arrModule[id]) {
     img.style.display = "none";
   }
 }
+
+// === REFLEKSI ===
 const reflectionEl = document.querySelector(".refleksi-text");
 
-if (module.refleksi) {
+if (module && module.refleksi) {
   reflectionEl.textContent = module.refleksi;
 } else {
   reflectionEl.textContent = "Refleksi belum tersedia.";
