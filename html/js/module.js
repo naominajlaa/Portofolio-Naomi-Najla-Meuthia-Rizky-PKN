@@ -20,6 +20,36 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./assets/sagu-keju.jpg",
       description: "smadnsaldlksajdlksaj",
     },
+    {
+      title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
+      image: "./assets/sagu-keju.jpg",
+      description: "smadnsaldlksajdlksaj",
+    },
+    {
+      title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
+      image: "./assets/sagu-keju.jpg",
+      description: "smadnsaldlksajdlksaj",
+    },
+    {
+      title: "Minggu 1 — Judul Topik",
+      image: "./assets/havana-nestum.jpg",
+      description: "naomi nao",
+    },
+    {
+      title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
+      image: "./assets/sagu-keju.jpg",
+      description: "smadnsaldlksajdlksaj",
+    },
+    {
+      title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
+      image: "./assets/sagu-keju.jpg",
+      description: "smadnsaldlksajdlksaj",
+    },
+    {
+      title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
+      image: "./assets/sagu-keju.jpg",
+      description: "smadnsaldlksajdlksaj",
+    },
   ];
 
   arrModule.forEach((item, index) => {
