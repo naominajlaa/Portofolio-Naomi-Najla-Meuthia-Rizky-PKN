@@ -58,8 +58,8 @@ const arrModule = [
       "Materi fungsi dan peran negara membuka pemahaman saya bahwa negara bukan sekadar pemegang kekuasaan, melainkan pelayan masyarakat. Negara memiliki tanggung jawab besar dalam menjaga keamanan, menegakkan hukum, serta mewujudkan kesejahteraan melalui kebijakan publik. Dari materi ini, saya belajar bahwa prinsip good governance seperti transparansi dan keadilan sangat penting agar kepercayaan masyarakat terhadap pemerintah dapat terjaga.",
   },
   {
-    title: "Demokrasi?",
-    image: "./assets/bukti 3.jpg",
+    title: "Demokrasi",
+    image: "./assets/bukti 3.jpeg",
     description: "Apa yang dimaksud dengan demokrasi?",
     content:
       "Demokrasi berasal dari kata demos (rakyat) dan kratos (pemerintahan), yang berarti pemerintahan oleh rakyat. Menurut Abraham Lincoln, demokrasi adalah pemerintahan dari rakyat, oleh rakyat, dan untuk rakyat. Demokrasi memiliki tiga makna: 1) Sebagai bentuk pemerintahan, di mana kekuasaan dipegang dan dijalankan untuk kepentingan rakyat. 2) Sebagai sistem politik, yang menekankan pembagian kekuasaan, pemerintahan berdasarkan hukum dan konstitusi, pemilu yang bebas, perlindungan HAM, serta pengakuan hak minoritas. 3) Sebagai nilai kehidupan, yang mengutamakan musyawarah, keadilan, dan partisipasi rakyat. Demokrasi Indonesia berlandaskan Pancasila, khususnya sila ke-4, dengan ciri utama musyawarah mufakat, sistem perwakilan, pembagian kekuasaan, serta mekanisme check and balance. Indonesia disebut negara demokrasi karena alasan etis, sosiologis, dan yuridis yang ditegaskan dalam UUD 1945.",
