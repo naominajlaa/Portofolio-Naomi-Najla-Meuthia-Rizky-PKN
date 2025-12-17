@@ -269,9 +269,6 @@ footer {
   transform: translateY(-2px);
 }
 
-/* ==========================
-   META TEXT
-========================== */
 .meta {
   color: var(--muted);
   font-size: 13px;
@@ -311,7 +308,6 @@ footer {
   position: relative;
 }
 
-/* garis biru di kiri */
 .module-card::before {
   content: "";
   position: absolute;

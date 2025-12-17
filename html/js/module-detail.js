@@ -1,3 +1,7 @@
+document.querySelector(".module-title").textContent = data.judul;
+document.querySelector(".module-author").textContent = data.penulis;
+document.querySelector(".module-content").textContent = data.konten;
+document.querySelector(".module-image").src = data.gambar;
 const arrModule = [
   {
     title: "Minggu 1 — Judul Topik",
