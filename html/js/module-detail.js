@@ -5,42 +5,61 @@ const arrModule = [
     description: "naomi nao",
   },
   {
-    title: "Rakyat, Hukum, Negara Relasi Kekuasaan",
+    title: "Minggu 2 — Rakyat, Hukum, Negara",
     image: "./assets/sagu-keju.jpg",
-    description: "smadnsaldlksajdlksaj",
+    description: "Relasi kekuasaan dalam kehidupan bernegara",
   },
   {
-    title: "Minggu 1 — Judul Topik",
+    title: "Minggu 3 — Demokrasi Pancasila",
     image: "./assets/pkn.jpg",
-    description: "lkfdlsjfldsfs",
+    description: "Penerapan demokrasi di Indonesia",
   },
-  { title: "Minggu 1 — Judul Topik" },
-  { title: "Minggu 1 — Judul Topik" },
-  { title: "Minggu 1 — Judul Topik" },
-  { title: "Minggu 1 — Judul Topik" },
+  {
+    title: "Minggu 4 — Konstitusi dan UUD 1945",
+    image: "./assets/konstitusi.jpg",
+    description: "Peran konstitusi sebagai hukum dasar negara",
+  },
+  {
+    title: "Minggu 5 — Hak dan Kewajiban Warga Negara",
+    image: "./assets/hak-kewajiban.jpg",
+    description: "Keseimbangan hak dan kewajiban warga negara",
+  },
+  {
+    title: "Minggu 6 — Sistem Pemerintahan Indonesia",
+    image: "./assets/pemerintahan.jpg",
+    description: "Lembaga negara dan sistem presidensial",
+  },
+  {
+    title: "Minggu 7 — Negara Hukum",
+    image: "./assets/negara-hukum.jpg",
+    description: "Supremasi hukum dan keadilan",
+  },
+  {
+    title: "Minggu 8 — Peran Warga Negara",
+    image: "./assets/peran-warga.jpg",
+    description: "Partisipasi aktif dalam kehidupan berbangsa",
+  },
 ];
 
 const params = new URLSearchParams(window.location.search);
-const id = params.get("id");
+const id = Number(params.get("id"));
 
-const module = arrModule[id];
+if (!arrModule[id]) {
+  document.querySelector(".module-title").textContent =
+    "Module tidak ditemukan";
+} else {
+  const module = arrModule[id];
 
-const container = document.getElementById("module-detail");
+  document.querySelector(".module-title").textContent = module.title;
+  document.querySelector(".module-author").textContent = module.description;
 
-container.innerHTML = `
-  <h1>${module.title}</h1>
+  document.querySelector(".module-content").textContent =
+    "Konten detail pembelajaran dapat ditulis di sini.";
 
-  ${
-    module.image
-      ? `<img src="${module.image}" style="width:300px; margin:20px 0;">`
-      : ""
+  const img = document.querySelector(".module-image");
+  if (module.image) {
+    img.src = module.image;
+  } else {
+    img.style.display = "none";
   }
-
-  <p>${module.description ?? "Tidak ada deskripsi."}</p>
-  
-  <p>Konten detail pembelajaran dapat ditulis di sini.</p>
-`;
-document.querySelector(".module-title").textContent = data.judul;
-document.querySelector(".module-author").textContent = data.penulis;
-document.querySelector(".module-content").textContent = data.konten;
-document.querySelector(".module-image").src = data.gambar;
+}
