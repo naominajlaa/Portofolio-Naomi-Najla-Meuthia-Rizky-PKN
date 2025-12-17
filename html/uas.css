@@ -2,14 +2,14 @@
    THEME VARIABLES
 ========================== */
 :root {
-  --accent: #6C63FF;
-  --accent-light: #857CFF;
+  --accent: #6c63ff;
+  --accent-light: #857cff;
   --muted: #6b7280;
   --bg: #f5f6fb;
   --card: #ffffff;
   --border: #e5e7eb;
-  --shadow-sm: 0 4px 12px rgba(0,0,0,0.06);
-  --shadow-md: 0 8px 24px rgba(0,0,0,0.08);
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
   --radius: 14px;
   --transition: 0.25s ease;
 }
@@ -111,7 +111,11 @@ nav a:hover {
    HERO SECTION
 ========================== */
 .hero {
-  background: linear-gradient(90deg, rgba(108,99,255,0.18), rgba(108,99,255,0.06));
+  background: linear-gradient(
+    90deg,
+    rgba(108, 99, 255, 0.18),
+    rgba(108, 99, 255, 0.06)
+  );
   padding: 26px;
   border-radius: var(--radius);
   margin-top: 24px;
@@ -143,7 +147,9 @@ nav a:hover {
 }
 
 @media (max-width: 900px) {
-  .grid { grid-template-columns: 1fr; }
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ==========================
@@ -181,13 +187,13 @@ nav a:hover {
   padding: 14px;
   margin-bottom: 14px;
   border-radius: 10px;
-  background: linear-gradient(180deg, rgba(108,99,255,0.06), transparent);
+  background: linear-gradient(180deg, rgba(108, 99, 255, 0.06), transparent);
   transition: var(--transition);
 }
 
 .module:hover {
   transform: translateX(4px);
-  background: rgba(108,99,255,0.08);
+  background: rgba(108, 99, 255, 0.08);
 }
 
 /* ==========================
@@ -200,7 +206,9 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
-  .showcase-grid { grid-template-columns: 1fr; }
+  .showcase-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .work {
@@ -288,4 +296,55 @@ footer {
 .img-module {
   width: 200px;
   height: 100px;
+}
+.page-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.module-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+/* garis biru di kiri */
+.module-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20px;
+  bottom: 20px;
+  width: 6px;
+  background: #5b6cff;
+  border-radius: 6px;
+}
+
+.module-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.module-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.module-author {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.module-content {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #374151;
 }
