@@ -9,7 +9,7 @@ const arrModule = [
   },
   {
     title: "Sejarah Identitas Nasional",
-    image: "./assets/pkn.jpg",
+    image: "./assets/bukti 2.jpeg",
     description:
       "Apa yang dimaksud dengan identitas nasional dan bagaimana identitas tersebut terbentuk dalam sejarah Indonesia?",
     content:
@@ -17,7 +17,7 @@ const arrModule = [
   },
   {
     title: "Rakyat, Hukum, dan Negara Relasi Kekuasaan",
-    image: "./assets/havana-nestum.jpg",
+    image: "./assets/bukti 4.jpeg",
     description:
       "Apa perbedaan pandangan Hobbes, Locke, dan Rousseau tentang kondisi alamiah manusia?",
     content:
@@ -33,28 +33,28 @@ const arrModule = [
   },
   {
     title: "Konstitusi",
-    image: "./assets/hak-kewajiban.jpg",
+    image: "./assets/konstitusi.jpeg",
     description: "Apa yang dimaksud dengan konstitusi?",
     content:
       "Konstitusi adalah aturan dasar negara yang mengatur struktur lembaga negara, pembagian kekuasaan, jaminan HAM, serta hubungan negara dan warga negara. Konstitusi lahir dari kontrak sosial, yaitu kesepakatan rakyat untuk menyerahkan sebagian hak demi ketertiban dan keamanan. Konstitusi berfungsi sebagai norma hukum tertinggi, sumber dari semua peraturan, serta landasan sistem politik dan demokrasi. Di Indonesia, konstitusi bersifat hirarkis dan dijaga melalui uji materi oleh Mahkamah Konstitusi. UUD 1945 telah mengalami beberapa perubahan untuk menyesuaikan dengan perkembangan demokrasi dan kehendak rakyat",
   },
   {
     title: "Fungsi dan Peran Negara",
-    image: "./assets/pemerintahan.jpg",
+    image: "./assets/negara.jpeg",
     description: "Apa saja fungsi utama negara?",
     content:
       "Negara memiliki fungsi reguler, yaitu fungsi politik (pertahanan dan keamanan), fungsi diplomatik (hubungan dan kerja sama internasional), fungsi yuridis (penegakan hukum), fungsi administrasi (birokrasi pemerintahan), serta fungsi pembangunan untuk mewujudkan kesejahteraan dan mencerdaskan kehidupan bangsa. Dalam menjalankan fungsi tersebut, negara menetapkan kebijakan publik sebagai tindakan politik yang bersifat mengikat dan bertujuan memenuhi kepentingan masyarakat. Kebijakan publik harus berlandaskan nilai etis seperti keadilan, kesejahteraan umum, dan legitimasi moral. Pelaksanaan fungsi negara menuntut prinsip good governance, meliputi transparansi, akuntabilitas, partisipasi masyarakat, responsivitas pemerintah, supremasi hukum, efisiensi, efektivitas, dan keadilan agar pelayanan publik berjalan adil dan berpihak pada kepentingan rakyat.",
   },
   {
     title: "Demokrasi?",
-    image: "./assets/negara-hukum.jpg",
+    image: "./assets/bukti 3.jpg",
     description: "Apa yang dimaksud dengan demokrasi?",
     content:
       "Demokrasi berasal dari kata demos (rakyat) dan kratos (pemerintahan), yang berarti pemerintahan oleh rakyat. Menurut Abraham Lincoln, demokrasi adalah pemerintahan dari rakyat, oleh rakyat, dan untuk rakyat. Demokrasi memiliki tiga makna: 1) Sebagai bentuk pemerintahan, di mana kekuasaan dipegang dan dijalankan untuk kepentingan rakyat. 2) Sebagai sistem politik, yang menekankan pembagian kekuasaan, pemerintahan berdasarkan hukum dan konstitusi, pemilu yang bebas, perlindungan HAM, serta pengakuan hak minoritas. 3) Sebagai nilai kehidupan, yang mengutamakan musyawarah, keadilan, dan partisipasi rakyat. Demokrasi Indonesia berlandaskan Pancasila, khususnya sila ke-4, dengan ciri utama musyawarah mufakat, sistem perwakilan, pembagian kekuasaan, serta mekanisme check and balance. Indonesia disebut negara demokrasi karena alasan etis, sosiologis, dan yuridis yang ditegaskan dalam UUD 1945.",
   },
   {
     title: "Multikulturalisme",
-    image: "./assets/peran-warga.jpg",
+    image: "./assets/multikulturalisme.jpeg",
     description:
       "Apa hubungan multikulturalisme dengan Pancasila dan Bhinneka Tunggal Ika?",
     content:
