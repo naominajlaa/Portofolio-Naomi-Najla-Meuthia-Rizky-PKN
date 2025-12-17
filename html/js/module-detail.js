@@ -9,7 +9,7 @@ const arrModule = [
   },
   {
     title: "Sejarah Identitas Nasional",
-    image: "./assets/bukti 2.jpeg",
+    image: "./assets/identitas.jpeg",
     description:
       "Apa yang dimaksud dengan identitas nasional dan bagaimana identitas tersebut terbentuk dalam sejarah Indonesia?",
     content:
@@ -25,7 +25,7 @@ const arrModule = [
   },
   {
     title: "Ideologi dan Falsafah Bangsa",
-    image: "./assets/konstitusi.jpg",
+    image: "./assets/ideologi.jpeg",
     description:
       "Apa yang dimaksud dengan identitas nasional dan bagaimana identitas tersebut terbentuk dalam sejarah Indonesia?",
     content:
