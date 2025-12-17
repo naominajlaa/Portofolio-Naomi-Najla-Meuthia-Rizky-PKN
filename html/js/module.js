@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Negara berfungsi menjaga ketertiban, menegakkan hukum, menjalankan pemerintahan, dan mewujudkan kesejahteraan rakyat. Semua fungsi ini dijalankan melalui kebijakan publik yang bersifat mengikat. Pelaksanaannya harus berdasarkan prinsip good governance: transparansi, akuntabilitas, partisipasi, supremasi hukum, dan keadilan.",
     },
     {
-      title: "Demokrasi?",
+      title: "Demokrasi",
       image: "./assets/sagu-keju.jpg",
       description:
         "Demokrasi adalah pemerintahan dari, oleh, dan untuk rakyat. Demokrasi tidak hanya sebagai bentuk pemerintahan, tetapi juga sebagai sistem politik dan nilai kehidupan. Demokrasi Indonesia berlandaskan Pancasila, menekankan musyawarah mufakat, sistem perwakilan, pembagian kekuasaan, dan perlindungan HAM.",

@@ -351,3 +351,25 @@ footer {
   margin-top: 15px;
   border-radius: 8px;
 }
+/* ===== REFLEKSI ===== */
+.module-reflection {
+  margin-top: 32px;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 14px;
+  border-left: 6px solid #6366f1; /* biru lembut */
+}
+
+.module-reflection h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #1f2937;
+}
+
+.module-reflection p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #374151;
+  text-align: justify;
+}
