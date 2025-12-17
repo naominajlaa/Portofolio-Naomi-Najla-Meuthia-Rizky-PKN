@@ -55,10 +55,11 @@ if (!arrModule[id]) {
   const module = arrModule[id];
 
   document.querySelector(".module-title").textContent = module.title;
-  document.querySelector(".module-author").textContent = module.description;
+  document.querySelector(".module-author").textContent =
+    module.description ?? "";
 
   document.querySelector(".module-content").textContent =
-    "Konten detail pembelajaran dapat ditulis di sini.";
+    module.content ?? "Konten belum tersedia.";
 
   const img = document.querySelector(".module-image");
   if (module.image) {
