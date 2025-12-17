@@ -1,7 +1,7 @@
 const arrModule = [
   {
     title: "Rangkuman Materi Pendidikan Kewarganegaraan",
-    image: "./assets/havana-nestum.jpg",
+    image: "./assets/Bukti 1.jpeg",
     description:
       "Apa yang dimaksud dengan Pendidikan Kewarganegaraan dan mengapa penting bagi warga negara?",
     content:
